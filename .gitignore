@@ -1,0 +1,7 @@
+node_modules
+# Keep environment variables out of version control
+.env
+pubspec.yaml
+tsconfig_generated.json
+
+/generated/prisma
