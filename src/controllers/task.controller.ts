@@ -10,29 +10,28 @@ import { Priority } from "@prisma/client";
 
 export const createController = async (req: Request, res: Response) => {
   const userId = (req as any).user.id;
-  const parsed = createTaskSchema.parse(req.body); // Validasi req.body sebagai strings dulu
+  const parsed = createTaskSchema.parse(req.body); 
   const data = {
     ...parsed,
-    start_date: new Date(parsed.start_date), // Konversi string ke Date setelah validasi
+    start_date: new Date(parsed.start_date),
     due_date: new Date(parsed.due_date),
-    userId, // Tambah userId dari auth
+    userId,
   };
   const task = await createTask(data);
   res.status(201).json(task);
 };
 
-// Sisanya sama, tapi untuk updateController, sudah OK karena handle if (data.start_date) ... (partial)
 export const updateController = async (req: Request, res: Response) => {
   const id = parseInt(req.params.id);
-  const parsed = updateTaskSchema.parse(req.body); // Parse dulu
-  const data: any = { ...parsed }; // Buat copy untuk modifikasi
+  const parsed = updateTaskSchema.parse(req.body); 
+  const data: any = { ...parsed }; 
   if (data.start_date) data.start_date = new Date(data.start_date as string);
   if (data.due_date) data.due_date = new Date(data.due_date as string);
   const task = await updateTask(id, data);
   res.json(task);
 };
 
-// getAllController dan deleteController tetap sama
+
 export const getAllController = async (req: Request, res: Response) => {
   const userId = (req as any).user.id;
   const filters = {

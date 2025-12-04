@@ -34,7 +34,7 @@ export const updateTaskSchema = createTaskSchema.partial().extend({
 
 export const createFolderSchema = z.object({
     name: z.string().min(3, {message: "Title must be at least 3 characters"}).max(20, {message: "Title must not exceed 20 characters"}),
-    description: z.string().min(3, {message: "Description must be at least 3 characters"}).max(100, {message: "Description must not exceed 100 characters"}).optional(),
+    // description: z.string().min(3, {message: "Description must be at least 3 characters"}).max(100, {message: "Description must not exceed 100 characters"}).optional(),
 });
 
 export const shareFolderSchema = z.object({

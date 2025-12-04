@@ -20,8 +20,39 @@ export const getTasks = async (
   userId: number,
   filters?: { priority?: Priority; complete?: boolean; folderId?: number }
 ) => {
+  const { priority, complete, folderId } = filters || {};
+
+  if (folderId) {
+    const ownFolder = await prisma.folders.findFirst({
+      where: { id: folderId, userId: userId },
+    });
+
+    const sharedFolder = await prisma.foldersShare.findFirst({
+      where: { folderId: folderId, userId: userId },
+    });
+
+    if (!ownFolder && !sharedFolder) {
+      return [];
+    }
+
+    return prisma.tasks.findMany({
+      where: {
+        folderId: folderId,
+        ...(priority && { priority }),
+        ...(complete !== undefined && { complete }),
+      },
+      orderBy: { due_date: "asc" },
+    });
+  }
+
+
   return prisma.tasks.findMany({
-    where: { userId, ...filters },
+    where: {
+      userId, 
+      folderId: null, 
+      ...(priority && { priority }),
+      ...(complete !== undefined && { complete }),
+    },
     orderBy: { due_date: "asc" },
   });
 };

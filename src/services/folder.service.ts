@@ -18,14 +18,21 @@ export const getOwnFolders = async (userId: number) => {
   });
 };
 
-export const getSharedFolders = async (userId: number) => {
-  return prisma.foldersShare
-    .findMany({
-      where: { userId },
-      include: { folder: { include: { tasks: true } } },
-    })
-    .then((shares) => shares.map((s) => s.folder));
-};
+  export const getSharedFolders = async (userId: number) => {
+    return prisma.foldersShare
+      .findMany({
+        where: { userId },
+        include: {
+          folder: {
+            include: {
+              tasks: true,
+              user: true, 
+            },
+          },
+        },
+      })
+      .then((shares) => shares.map((s) => s.folder));
+  };
 
 export const getTasksInFolder = async (folderId: number, userId: number) => {
   const folder = await prisma.folders.findUnique({
@@ -92,7 +99,7 @@ export const removeShareBySelf = async (folderId: number, userId: number) => {
   const result = await prisma.foldersShare.deleteMany({
     where: {
       folderId: folderId,
-      userId: userId, 
+      userId: userId,
     },
   });
 
@@ -114,7 +121,9 @@ export const searchUsers = async (query: string) => {
 
 async function isShared(folderId: number, userId: number) {
   const share = await prisma.foldersShare.findUnique({
-    where: { folderId_userId: { folderId, userId } },
+    where: {
+      folderId_userId: { folderId, userId },
+    },
   });
   return !!share;
 }

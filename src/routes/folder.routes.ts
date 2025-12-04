@@ -21,7 +21,7 @@ router.get("/", getAllController);
 router.delete("/:id", deleteFolderController); 
 router.get("/:id/tasks", getTasksController);
 router.post("/:id/share", shareController);
-router.delete("/:id/share/self", removeShareBySelfController); 
+router.delete("/:id/leave", removeShareBySelfController);
 router.delete("/:id/share/:userId", removeShareController); 
 
 export default router;
