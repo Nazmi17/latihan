@@ -41,6 +41,22 @@ export const getTasksInFolder = async (folderId: number, userId: number) => {
   return folder.tasks;
 };
 
+export const deleteFolder = async (folderId: number, userId: number) => {
+  const folder = await prisma.folders.findUnique({ where: { id: folderId } });
+
+  if (!folder || folder.userId !== userId) {
+    throw new Error(
+      "Folder not found or you do not have permission to delete it"
+    );
+  }
+
+  await prisma.folders.delete({
+    where: { id: folderId },
+  });
+
+  logInfo(`Folder deleted: ${folderId} by user ${userId}`);
+};
+
 export const shareFolder = async (
   folderId: number,
   userId: number,
@@ -70,6 +86,21 @@ export const removeShare = async (
     where: { folderId, userId: removeUserId },
   });
   logInfo(`Share removed: ${folderId} from ${removeUserId}`);
+};
+
+export const removeShareBySelf = async (folderId: number, userId: number) => {
+  const result = await prisma.foldersShare.deleteMany({
+    where: {
+      folderId: folderId,
+      userId: userId, 
+    },
+  });
+
+  if (result.count === 0) {
+    throw new Error("Shared folder not found or you are not a participant");
+  }
+
+  logInfo(`User ${userId} left shared folder: ${folderId}`);
 };
 
 export const searchUsers = async (query: string) => {

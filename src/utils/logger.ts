@@ -1,6 +1,5 @@
 import { createLogger, format, transports } from "winston";
 import path from "path";
-import { string } from "zod";
 
 const logger = createLogger({
   level: process.env.NODE_ENV === "production" ? "info" : "debug",

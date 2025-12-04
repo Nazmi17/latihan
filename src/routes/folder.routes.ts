@@ -7,17 +7,21 @@ import {
   shareController,
   removeShareController,
   searchUsersController,
+  deleteFolderController,
+  removeShareBySelfController,
 } from "../controllers/folder.controller";
 
 const router = express.Router();
 
 router.use(authMiddleware);
 
+router.get("/search-users", searchUsersController);
 router.post("/", createController);
 router.get("/", getAllController);
+router.delete("/:id", deleteFolderController); 
 router.get("/:id/tasks", getTasksController);
 router.post("/:id/share", shareController);
-router.delete("/:id/share/:userId", removeShareController);
-router.get("/search-users", searchUsersController); // Untuk share screen search
+router.delete("/:id/share/self", removeShareBySelfController); 
+router.delete("/:id/share/:userId", removeShareController); 
 
 export default router;
