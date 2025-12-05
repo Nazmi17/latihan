@@ -319,3 +319,316 @@
 {"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 05:57:09"}
 {"level":"info","message":"GET /api/tasks?folderId=4","timestamp":"2025-12-05 05:57:09"}
 {"level":"info","message":"DELETE /api/folders/4/leave","timestamp":"2025-12-05 05:57:15"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 05:59:33"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 05:59:33"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 05:59:33"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 05:59:33"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 05:59:33"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 05:59:33"}
+{"level":"info","message":"GET /api/tasks?folderId=4","timestamp":"2025-12-05 05:59:33"}
+{"level":"info","message":"DELETE /api/folders/4/leave","timestamp":"2025-12-05 05:59:38"}
+{"level":"info","message":"User 14 left shared folder: 4","timestamp":"2025-12-05 05:59:38"}
+{"level":"info","message":"POST /api/tasks","timestamp":"2025-12-05 06:45:47"}
+{"level":"info","message":"Task created: 15","timestamp":"2025-12-05 06:45:48"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:46:18"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:46:18"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:46:18"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:46:18"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:46:19"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:46:19"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:46:37"}
+{"level":"info","message":"POST /api/tasks","timestamp":"2025-12-05 06:46:54"}
+{"level":"info","message":"Task created: 16","timestamp":"2025-12-05 06:46:54"}
+{"level":"info","message":"PUT /api/tasks/16","timestamp":"2025-12-05 06:47:02"}
+{"level":"info","message":"Task updated: 16","timestamp":"2025-12-05 06:47:02"}
+{"level":"info","message":"POST /api/folders","timestamp":"2025-12-05 06:47:23"}
+{"level":"info","message":"Folder created: 5","timestamp":"2025-12-05 06:47:23"}
+{"level":"info","message":"PUT /api/tasks/16","timestamp":"2025-12-05 06:47:32"}
+{"level":"info","message":"Task updated: 16","timestamp":"2025-12-05 06:47:32"}
+{"level":"info","message":"GET /api/folders/search-users?query=azza","timestamp":"2025-12-05 06:47:39"}
+{"level":"info","message":"POST /api/folders/5/share","timestamp":"2025-12-05 06:47:45"}
+{"level":"info","message":"Folder shared: 5 to 14","timestamp":"2025-12-05 06:47:45"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 06:48:05"}
+{"level":"info","message":"User logged in: 14","timestamp":"2025-12-05 06:48:06"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:48:06"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:48:06"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:48:06"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:48:06"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:48:06"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:48:06"}
+{"level":"info","message":"GET /api/tasks?folderId=5","timestamp":"2025-12-05 06:48:06"}
+{"level":"info","message":"DELETE /api/folders/5","timestamp":"2025-12-05 06:48:26"}
+{"level":"info","message":"Folder deleted: 5 by user 14","timestamp":"2025-12-05 06:48:26"}
+{"level":"info","message":"DELETE /api/folders/5","timestamp":"2025-12-05 06:48:31"}
+{"level":"error","message":"Error occured Folder not found or you do not have permission to delete it","stack":"Error: Folder not found or you do not have permission to delete it\n    at deleteFolder (D:\\code\\ExpressJs\\latihan_todo1 - Copy\\src\\services\\folder.service.ts:55:11)\n    at async deleteFolderController (D:\\code\\ExpressJs\\latihan_todo1 - Copy\\src\\controllers\\folder.controller.ts:48:3)","timestamp":"2025-12-05 06:48:31"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:48:42"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:48:42"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:48:42"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:48:42"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:48:43"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:48:43"}
+{"level":"info","message":"POST /api/folders","timestamp":"2025-12-05 06:48:59"}
+{"level":"info","message":"Folder created: 6","timestamp":"2025-12-05 06:48:59"}
+{"level":"info","message":"PUT /api/tasks/16","timestamp":"2025-12-05 06:49:08"}
+{"level":"info","message":"Task updated: 16","timestamp":"2025-12-05 06:49:08"}
+{"level":"info","message":"GET /api/folders/search-users?query=sep","timestamp":"2025-12-05 06:49:16"}
+{"level":"info","message":"POST /api/folders/6/share","timestamp":"2025-12-05 06:49:22"}
+{"level":"info","message":"Folder shared: 6 to 15","timestamp":"2025-12-05 06:49:22"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 06:50:06"}
+{"level":"info","message":"User logged in: 15","timestamp":"2025-12-05 06:50:06"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:50:06"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:50:06"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:50:06"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:50:06"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:50:06"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:50:06"}
+{"level":"info","message":"GET /api/tasks?folderId=6","timestamp":"2025-12-05 06:50:06"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 06:50:44"}
+{"level":"info","message":"User logged in: 14","timestamp":"2025-12-05 06:50:44"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:50:45"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:50:45"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:50:45"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:50:45"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:50:45"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:50:45"}
+{"level":"info","message":"PUT /api/tasks/15","timestamp":"2025-12-05 06:51:00"}
+{"level":"info","message":"Task updated: 15","timestamp":"2025-12-05 06:51:00"}
+{"level":"info","message":"PUT /api/tasks/12","timestamp":"2025-12-05 06:51:33"}
+{"level":"info","message":"Task updated: 12","timestamp":"2025-12-05 06:51:33"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 06:52:08"}
+{"level":"info","message":"User logged in: 15","timestamp":"2025-12-05 06:52:08"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:52:08"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:52:08"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:52:08"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:52:08"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:52:08"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:52:08"}
+{"level":"info","message":"GET /api/tasks?folderId=6","timestamp":"2025-12-05 06:52:08"}
+{"level":"info","message":"POST /api/folders","timestamp":"2025-12-05 06:53:30"}
+{"level":"info","message":"Folder created: 7","timestamp":"2025-12-05 06:53:30"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:53:33"}
+{"level":"info","message":"POST /api/tasks","timestamp":"2025-12-05 06:53:48"}
+{"level":"info","message":"Task created: 17","timestamp":"2025-12-05 06:53:48"}
+{"level":"info","message":"GET /api/folders/search-users?query=azz","timestamp":"2025-12-05 06:53:56"}
+{"level":"info","message":"POST /api/folders/7/share","timestamp":"2025-12-05 06:54:01"}
+{"level":"info","message":"Folder shared: 7 to 14","timestamp":"2025-12-05 06:54:01"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 06:54:25"}
+{"level":"info","message":"User logged in: 14","timestamp":"2025-12-05 06:54:25"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:54:25"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:54:25"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:54:25"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:54:25"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:54:25"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:54:25"}
+{"level":"info","message":"GET /api/tasks?folderId=7","timestamp":"2025-12-05 06:54:25"}
+{"level":"info","message":"PUT /api/tasks/15","timestamp":"2025-12-05 06:54:48"}
+{"level":"info","message":"Task updated: 15","timestamp":"2025-12-05 06:54:48"}
+{"level":"info","message":"PUT /api/tasks/15","timestamp":"2025-12-05 06:54:55"}
+{"level":"info","message":"Task updated: 15","timestamp":"2025-12-05 06:54:55"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 06:55:34"}
+{"level":"info","message":"User logged in: 15","timestamp":"2025-12-05 06:55:34"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:55:35"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:55:35"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:55:35"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:55:35"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:55:35"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:55:35"}
+{"level":"info","message":"GET /api/tasks?folderId=6","timestamp":"2025-12-05 06:55:35"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 06:56:24"}
+{"level":"info","message":"User logged in: 14","timestamp":"2025-12-05 06:56:24"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:56:24"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:56:24"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:56:24"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:56:24"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:56:24"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:56:24"}
+{"level":"info","message":"GET /api/tasks?folderId=7","timestamp":"2025-12-05 06:56:24"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 06:57:20"}
+{"level":"info","message":"User logged in: 15","timestamp":"2025-12-05 06:57:20"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:57:21"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 06:57:21"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:57:21"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:57:21"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 06:57:21"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 06:57:21"}
+{"level":"info","message":"GET /api/tasks?folderId=6","timestamp":"2025-12-05 06:57:21"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:02:15"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:02:15"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:02:15"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:02:15"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:02:15"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:02:15"}
+{"level":"info","message":"GET /api/tasks?folderId=6","timestamp":"2025-12-05 07:02:15"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 07:04:35"}
+{"level":"info","message":"User logged in: 14","timestamp":"2025-12-05 07:04:35"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:04:35"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:04:35"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:04:35"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:04:35"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:04:35"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:04:35"}
+{"level":"info","message":"GET /api/tasks?folderId=7","timestamp":"2025-12-05 07:04:35"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 07:05:10"}
+{"level":"info","message":"User logged in: 15","timestamp":"2025-12-05 07:05:10"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:05:11"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:05:11"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:05:11"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:05:11"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:05:11"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:05:11"}
+{"level":"info","message":"GET /api/tasks?folderId=6","timestamp":"2025-12-05 07:05:11"}
+{"level":"info","message":"DELETE /api/tasks/15","timestamp":"2025-12-05 07:05:33"}
+{"level":"info","message":"Task deleted: 15","timestamp":"2025-12-05 07:05:33"}
+{"level":"info","message":"DELETE /api/tasks/16","timestamp":"2025-12-05 07:05:36"}
+{"level":"info","message":"Task deleted: 16","timestamp":"2025-12-05 07:05:36"}
+{"level":"info","message":"DELETE /api/tasks/17","timestamp":"2025-12-05 07:05:39"}
+{"level":"info","message":"Task deleted: 17","timestamp":"2025-12-05 07:05:39"}
+{"level":"info","message":"DELETE /api/tasks/12","timestamp":"2025-12-05 07:05:42"}
+{"level":"info","message":"Task deleted: 12","timestamp":"2025-12-05 07:05:42"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 07:06:04"}
+{"level":"info","message":"User logged in: 15","timestamp":"2025-12-05 07:06:05"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:06:05"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:06:05"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:06:05"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:06:05"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:06:05"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:06:05"}
+{"level":"info","message":"GET /api/tasks?folderId=6","timestamp":"2025-12-05 07:06:05"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:06:39"}
+{"level":"info","message":"POST /api/tasks","timestamp":"2025-12-05 07:06:59"}
+{"level":"info","message":"Task created: 18","timestamp":"2025-12-05 07:06:59"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 07:07:32"}
+{"level":"info","message":"User logged in: 15","timestamp":"2025-12-05 07:07:32"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:07:32"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:07:32"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:07:32"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:07:32"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:07:33"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:07:33"}
+{"level":"info","message":"GET /api/tasks?folderId=6","timestamp":"2025-12-05 07:07:33"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:08:12"}
+{"level":"info","message":"POST /api/tasks","timestamp":"2025-12-05 07:08:45"}
+{"level":"info","message":"Task created: 19","timestamp":"2025-12-05 07:08:45"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 07:09:22"}
+{"level":"info","message":"User logged in: 14","timestamp":"2025-12-05 07:09:22"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:09:22"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:09:22"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:09:22"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:09:22"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:09:23"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:09:23"}
+{"level":"info","message":"GET /api/tasks?folderId=7","timestamp":"2025-12-05 07:09:23"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 07:10:11"}
+{"level":"info","message":"User logged in: 15","timestamp":"2025-12-05 07:10:11"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:10:11"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:10:11"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:10:11"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:10:11"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:10:11"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:10:11"}
+{"level":"info","message":"GET /api/tasks?folderId=6","timestamp":"2025-12-05 07:10:11"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:22:14"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:22:14"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:22:14"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:22:14"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:22:15"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:22:15"}
+{"level":"info","message":"GET /api/tasks?folderId=6","timestamp":"2025-12-05 07:22:15"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:27:00"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:27:00"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:27:00"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:27:00"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:27:00"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:27:00"}
+{"level":"info","message":"GET /api/tasks?folderId=6","timestamp":"2025-12-05 07:27:01"}
+{"level":"info","message":"DELETE /api/tasks/19","timestamp":"2025-12-05 07:27:23"}
+{"level":"info","message":"Task deleted: 19","timestamp":"2025-12-05 07:27:24"}
+{"level":"info","message":"DELETE /api/tasks/18","timestamp":"2025-12-05 07:27:27"}
+{"level":"info","message":"Task deleted: 18","timestamp":"2025-12-05 07:27:27"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 07:27:53"}
+{"level":"info","message":"User logged in: 15","timestamp":"2025-12-05 07:27:53"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:27:54"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:27:54"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:27:54"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:27:54"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:27:54"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:27:54"}
+{"level":"info","message":"GET /api/tasks?folderId=6","timestamp":"2025-12-05 07:27:54"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:29:40"}
+{"level":"info","message":"POST /api/tasks","timestamp":"2025-12-05 07:30:02"}
+{"level":"info","message":"Task created: 20","timestamp":"2025-12-05 07:30:02"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 07:30:56"}
+{"level":"info","message":"User logged in: 14","timestamp":"2025-12-05 07:30:57"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:30:57"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:30:57"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:30:57"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:30:57"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:30:57"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:30:57"}
+{"level":"info","message":"GET /api/tasks?folderId=7","timestamp":"2025-12-05 07:30:57"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:31:14"}
+{"level":"info","message":"POST /api/tasks","timestamp":"2025-12-05 07:31:33"}
+{"level":"info","message":"Task created: 21","timestamp":"2025-12-05 07:31:33"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 07:32:25"}
+{"level":"info","message":"User logged in: 15","timestamp":"2025-12-05 07:32:25"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:32:25"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:32:25"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:32:25"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:32:25"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:32:25"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:32:25"}
+{"level":"info","message":"GET /api/tasks?folderId=6","timestamp":"2025-12-05 07:32:25"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 07:33:08"}
+{"level":"info","message":"User logged in: 14","timestamp":"2025-12-05 07:33:09"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:33:09"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:33:09"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:33:09"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:33:09"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:33:09"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:33:09"}
+{"level":"info","message":"GET /api/tasks?folderId=7","timestamp":"2025-12-05 07:33:09"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:45:24"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:45:24"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:45:24"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:45:24"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:45:24"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:45:24"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 07:47:05"}
+{"level":"info","message":"User logged in: 14","timestamp":"2025-12-05 07:47:05"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:47:05"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:47:05"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:47:05"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:47:05"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:47:05"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:47:05"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 07:47:39"}
+{"level":"info","message":"User logged in: 15","timestamp":"2025-12-05 07:47:39"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:47:39"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:47:39"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:47:39"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:47:39"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:47:39"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:47:39"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:57:53"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:57:53"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:57:53"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:57:53"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:57:53"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:57:53"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:58:39"}
+{"level":"info","message":"POST /api/tasks","timestamp":"2025-12-05 07:58:58"}
+{"level":"info","message":"Task created: 22","timestamp":"2025-12-05 07:58:59"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-12-05 07:59:36"}
+{"level":"info","message":"User logged in: 14","timestamp":"2025-12-05 07:59:36"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:59:36"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:59:36"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:59:36"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 07:59:36"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 07:59:37"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 07:59:37"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 08:04:50"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 08:04:50"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 08:04:50"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 08:04:50"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 08:04:50"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 08:04:50"}

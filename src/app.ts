@@ -1,6 +1,6 @@
 import express, { Application, Request, Response } from "express";
 import cors from "cors";
-import { requestLogger } from "./utils/logger"; // Log requests
+import { requestLogger } from "./utils/logger";
 import { errorMiddleware } from "./middlewares/error.middleware";
 import routes from "./routes";
 
@@ -8,7 +8,7 @@ const app: Application = express();
 
 app.use(express.json());
 app.use(cors({ origin: "*" }));
-app.use(requestLogger); // Log setiap request
+app.use(requestLogger); 
 
 app.use("/api", routes);
 

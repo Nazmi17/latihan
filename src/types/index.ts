@@ -4,7 +4,7 @@ export interface User {
   id: number;
   email: string;
   username: string;
-  password: string; // Hashed
+  password: string; 
   created_at: Date;
   updated_at: Date;
 }
@@ -40,7 +40,6 @@ export interface FolderShare {
   updated_at: Date;
 }
 
-// Untuk request dengan JWT
 export interface RequestWithUser extends Request {
-  user?: { id: number }; // Dari auth middleware
+  user?: { id: number }; 
 }

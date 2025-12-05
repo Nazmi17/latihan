@@ -17,7 +17,7 @@ export const loginController = async (req: Request, res: Response) => {
     if (error.message === "Invalid credentials") {
       res.status(401).json({ error: "Invalid email or password" });
     } else {
-      throw error; // Error lain ke middleware (500)
+      throw error; 
     }
   }
 };
