@@ -632,3 +632,17 @@
 {"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 08:04:50"}
 {"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 08:04:50"}
 {"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 08:04:50"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 09:25:56"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 09:25:56"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 09:25:56"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 09:25:56"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 09:25:56"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 09:25:56"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 12:36:21"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 12:36:21"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 12:36:21"}
+{"level":"info","message":"GET /api/folders","timestamp":"2025-12-05 12:36:21"}
+{"level":"info","message":"GET /api/tasks?complete=false","timestamp":"2025-12-05 12:36:21"}
+{"level":"info","message":"GET /api/tasks?complete=true","timestamp":"2025-12-05 12:36:21"}
+{"level":"info","message":"PATCH /api/users/14","timestamp":"2025-12-05 12:38:11"}
+{"level":"info","message":"User updated: 14","timestamp":"2025-12-05 12:38:11"}

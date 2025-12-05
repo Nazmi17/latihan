@@ -14,7 +14,16 @@ export const createFolder = async (data: {
 export const getOwnFolders = async (userId: number) => {
   return prisma.folders.findMany({
     where: { userId },
-    include: { tasks: true },
+    include: {
+      tasks: true,
+      sharedWith: {
+        include: {
+          user: {
+            select: { id: true, username: true, email: true },
+          },
+        },
+      },
+    },
   });
 };
 
